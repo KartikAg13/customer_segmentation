@@ -1,4 +1,4 @@
-# K-Means Clustering with Manual Centroids
+# Mall Customer Segmentation using K-Means
 
 ## Overview
 This repository contains an implementation of K-Means clustering using manually assigned initial centroids. The algorithm clusters customer data based on their **Annual Income (k$)** and **Spending Score (1-100)**.
@@ -8,7 +8,7 @@ This repository contains an implementation of K-Means clustering using manually 
 - **README.md**: Documentation explaining the project and usage.
 
 ## Features
-- Reads customer data from `Mall_Customers.csv`.
+- Reads customer data from [Mall_Customers.csv](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python).
 - Initializes centroids manually for better clustering control.
 - Implements K-Means clustering from scratch using NumPy.
 - Visualizes clusters before and after training using Matplotlib.
@@ -16,8 +16,8 @@ This repository contains an implementation of K-Means clustering using manually 
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/KartikAg13/customer_segmentation.git
+   cd customer_segmentation
    ```
 2. Install dependencies:
    ```bash
@@ -41,10 +41,4 @@ This repository contains an implementation of K-Means clustering using manually 
 - **After Training**: Shows final clusters after running K-Means.
 
 ## Output Example
-![Clustering Output](image.png)
-
-## License
-This project is open-source under the MIT License.
-
-## Author
-Kartik
+![Clustering Output](https://github.com/user-attachments/assets/b256cc15-a03a-4362-a299-a161d176dc30)
